@@ -81,14 +81,22 @@
                 foreach ($arr as $key => $info) {
                     
                 ?>
-                
+
                     <?php 
                     foreach ($info as $value) {
                         
                     ?>
-                    <h2><?php echo $value['question-1'] ?></h2>
-                    <?php ?>
+                    <h3><?php echo $value['question-1'] ?></h3>
+                    <p><?php echo $value['answer-1'] ?></p>
+                    <h3><?php echo $value['question-2'] ?></h3>
+                    <p><?php echo $value['answer-2'] ?></p>
+                    <h3><?php echo $value['question-3'] ?></h3>
+                    <p><?php echo $value['answer-3'] ?></p>
+                    <h3><?php echo $value['question-4'] ?></h3>
+                    <p><?php echo $value['answer-4'] ?></p>
+                    <?php }?>
                 <?php } ?>
+            
             </main>
         </div>
 
