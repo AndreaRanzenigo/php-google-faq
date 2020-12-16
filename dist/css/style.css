@@ -9,14 +9,15 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: center;
+  border-bottom: 1px solid #5f636c;
+  padding-bottom: 15px;
 }
 
 img {
   width: 100px;
   margin: 20px;
   margin-right: 3px;
+  vertical-align: middle;
 }
 
 h1 {
@@ -24,5 +25,21 @@ h1 {
   font-size: 20px;
   color: #5f636c;
   font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin: 5px 15px;
+}
+
+ul li a {
+  color: #5f6368;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
 }
 

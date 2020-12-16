@@ -1,12 +1,14 @@
+//Header
 header {
-    display: flex;
-    align-items: center;
+    border-bottom: 1px solid $color_title;
+    padding-bottom: 15px;
 }
-
+//Img logo
 img {
     width: 100px;
     margin: 20px;
     margin-right: 3px;
+    vertical-align: middle;
 }
 
 h1 {
@@ -14,4 +16,18 @@ h1 {
     font-size: 20px;
     color: $color_title;
     font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    li {
+        margin: 5px 15px;
+        a {
+            color: $menu_color;
+            text-transform: capitalize;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
 }
