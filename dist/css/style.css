@@ -43,3 +43,19 @@ ul li a {
   text-decoration: none;
 }
 
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+.container h2 {
+  color: #3c4043;
+  font-size: 22px;
+  margin: 100px 0 25px 0;
+}
+
+.container p {
+  color: #272727;
+  line-height: 1.7;
+}
+
